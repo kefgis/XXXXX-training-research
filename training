@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Training - Conscientia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Training & Courses</h1></header>
+  <main>
+    <h2>GIS for Forestry, Climate Change, and Agriculture</h2>
+    <p>Structured into three modules: Decision-Makers, Practitioners, and Specialists.</p>
+
+    <h2>Sustainable Forest Management & Monitoring</h2>
+    <p>Comprehensive training on monitoring techniques and sustainable practices.</p>
+  </main>
+  <footer><p>&copy; 2026 Conscientia PLC</p></footer>
+</body>
+</html>
