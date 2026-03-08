@@ -54,17 +54,26 @@ nav ul li a:hover {
 
 /* Hero banner */
 .hero {
-  background: url('banner1.jpg') no-repeat center center/cover;
+  background: url('banner.jpg') no-repeat center center;
+  background-size: contain;   /* shrink image to fit */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;              /* reduce height */
+  max-width: 900px;           /* limit width */
+  margin: auto;               /* center horizontally */
   color: white;
   text-align: center;
-  padding: 100px 20px;
+  display: flex;
+  align-items: center;        /* vertically center content */
+  justify-content: center;    /* horizontally center content */
 }
+
 .hero-content {
   background: rgba(0,0,0,0.5);
-  display: inline-block;
   padding: 20px 40px;
   border-radius: 8px;
 }
+
 .hero h1 {
   font-size: 3em;
   margin-bottom: 10px;
