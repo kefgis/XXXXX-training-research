@@ -73,10 +73,17 @@ nav ul li a:hover {
   border-radius: 8px;
 }
 
-.hero-content h1,
-.hero-content p {
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+.hero-content h1 {
+  color: #0044cc;        /* deep blue */
+  font-weight: bold;     /* makes it bold */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4); /* optional for readability */
 }
+
+.hero-content p {
+  color: white;          /* keep subtitle white for contrast */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
 
 
 .hero h1 {
